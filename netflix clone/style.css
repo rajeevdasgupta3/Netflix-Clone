@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.bc-image img {
+    height: 700px;
+    width: 100%;
+}
+
+.box img {
+    height: 700px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.767);
+    opacity: 0.5;
+}
+
+.navbar {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+}
+
+.navbar-image img {
+    height: 90px;
+    opacity: 5.5;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+}
+
+.btn-1 {
+    display: flex;
+    align-items: center;
+    padding: 6px 26px;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(165, 161, 161);
+    border-radius: 5px;
+}
+
+.btn-1 i {
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 4px;
+}
+
+.btn-2 {
+    padding: 6px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.main-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 300px;
+    left: 290px;
+}
+
+.first-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.first-heading h1 {
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+.first-heading p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.second-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.second-heading p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.second-heading-btn {
+    display: flex;
+    align-items: center;
+}
+
+
+.second-heading-btn input {
+    padding: 24px 16px;
+    width: 20vw;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: rgb(196, 196, 196);
+    border: 1px solid rgba(117, 115, 115, 0.685);
+    font-size: 18px;
+}
+
+.second-heading-btn button {
+    display: flex;
+    align-items: center;
+    padding: 22px 14px;
+    margin-left: 15px;
+    width: 10vw;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.border {
+    background-color: rgb(66, 65, 65);
+    height: 10px;
+}
+
+.ent-zone {
+    display: flex;
+    flex-direction: column;
+}
+
+.zone-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.zone-1 h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.zone-1 p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.zone1-assets img {
+    position: relative;
+}
+
+.zone-1 video {
+    position: absolute;
+    left: 859px;
+    top: 814px;
+}
+
+.zone-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.zone-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.zone3-assets img {
+    position: relative;
+}
+
+.zone3-assets video {
+    display: flex;
+    position: absolute;
+    left: 900px;
+    top: 1700px;
+    height: 272px;
+    width: 515px;
+}
+
+.zone-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.questions-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.faq-heading {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-questions p {
+    font-size: 25px;
+    background-color: rgba(153, 153, 153, 0.295);
+    border: 1px solid white;
+    margin: 20px;
+    padding: 24px;
+    width: 800px;
+
+}
